@@ -1,0 +1,148 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* body {
+    overflow-x: hidden;
+} */
+
+nav {
+
+    /* background-color: antiquewhite; */
+    display: flex;
+    align-items: center;
+    border-right: 2px solid #e5e5e5;
+    /* width: 100%; */
+    position: fixed;
+
+    z-index: 3;
+    background-color: white;
+}
+
+.navbar {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+
+}
+
+.navbar li a {
+    padding-left: 8px;
+    padding-right: 20px;
+    text-decoration: none;
+    color: #848484;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+
+
+
+}
+
+.logo {
+    padding: 8px 18px;
+    border-right: 1px solid #e5e5e5;
+
+
+}
+
+span {
+
+    margin: 16px;
+
+}
+
+.first {
+    margin: 16px;
+}
+
+.first {
+    margin-right: 74px;
+    /* border-right: 1px solid #e5e5e5; */
+}
+
+.ticket {
+    background-color: #ff6600;
+    margin-left: 70px;
+    padding: 26px 32px;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    align-items: center;
+
+}
+
+.one {
+    color: black;
+}
+
+.tic {
+    margin-left: 6px;
+}
+
+.buytic {
+    font-size: 18px;
+    padding-left: 20px;
+    text-transform: uppercase;
+    border-left: 1px solid #e5e5e5;
+
+    color: #e5e5e5;
+    margin-top: 20px;
+    margin: 16px;
+
+
+
+}
+
+.navbar li:nth-child(1) a {
+    color: #ff6600;
+}
+
+.navbar li:hover a {
+    color: #ff6600;
+}
+
+.navbar li:hover span {
+    color: black;
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        padding: 0%;
+        margin: 0%;
+        align-items: center;
+        justify-content: center;
+        top: 0px;
+        /* width: 100%; */
+        margin-top: 0px;
+
+    }
+
+
+    .navbar {
+        display:block;
+        position: sticky;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        line-height: 30px;
+        padding: 0%;
+    }
+
+    .navbar li a {
+        padding: 0%;
+        margin: 0%;
+    }
+
+    .ticket {
+        display: none;
+       
+    }
+
+}
+
+

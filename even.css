@@ -1,0 +1,49 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.navbar{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    /* padding:10px 0px;    */
+    /* justify-content: space-between; */
+}
+.navbar li a{
+    /* padding:20px 30px; */
+    text-decoration: none;
+    font-size: 20px;
+    padding:30px 30px 17px 40px;
+    color: black;
+    line-height: 26px;
+  
+}
+.logo{
+  
+    border-right:1px solid #e5e5e5 ;
+  
+}
+.btnbuy{
+    padding: 34px 32px;
+    background-color: orangered;
+}
+.buytic{
+    padding: 34px 32px;
+    
+
+}
+span{
+    padding-left: 15xpx;
+}
+.bt{
+    font-size: 18px;
+    /* padding: 0px 0px 0px 20px;    */
+    margin-left: 5px;
+    
+}
+.navbar 
+
+ 
+
+    
+ 

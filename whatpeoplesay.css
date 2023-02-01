@@ -1,0 +1,102 @@
+/* what people say */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.wps{
+    padding:90px 0px;
+}
+.what{
+    display: flex;
+    justify-content: center;
+}
+.saytitle{
+
+}
+.what .saytitle .head{
+    text-align: center;
+    margin:0px 0px 20px;
+}
+.what .saytitle .head h3{
+    font-size: 36px;
+    font-family: "Montserrat", sans-serif;
+
+}
+.head span{
+    font-style: italic  ;
+    color:#ff6600;
+    font-weight: 400;
+}
+.titlelorem{
+    font-size: 16px;
+    color:#848484;
+    font-family: "Montserrat", sans-serif;
+
+}
+.aboutus{
+    display: flex;
+    justify-content: center;
+}
+.onetitle{
+    height:290px;
+    width:290px;
+    line-height: 25px;
+    margin: 15px;
+    padding:45px 34px;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+
+
+}
+.innerabout{
+    height:250px;
+    width:310px;
+    border:1px solid #848484;
+   /* padding:18px 22px; */
+   padding:23px 0px 0px 0px ;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    
+}
+.aboutus p{
+    color:#848484;
+    padding: 0px 15px 0px 20px;  
+}
+.outerabout{
+    display:flex ;
+    padding:15px 20px;  
+    height:60px;
+}
+.one{
+    
+    border-radius: 100%;
+}
+.nameone{
+    margin:10px;
+    font-family: "Montserrat", sans-serif;
+
+}
+.webdev{
+    padding: 10px 10px 10px 0px;
+    font-size: 13px;
+    color:#ff6600;
+    font-family: "Roboto", sans-serif;
+
+ 
+}
+.innerabout:hover{
+    background-color: #ff6600;
+    /* color:white; */
+   
+}
+.innerabout:hover p{
+ 
+    color:white;
+   
+}
+@media screen and (min-width:320px) and (max-width:480px){
+    .aboutus{
+        flex-wrap: wrap;
+    }
+}
