@@ -438,15 +438,7 @@ span {
         justify-content: center;
         align-items: center;
         margin: 0%;
-       
-       
-        
-      
         width: 100%;
-       
-       
-
-
 
     }
 
@@ -484,10 +476,7 @@ span {
 
     .button {
     
-
-
-
-
+        display: block;
     }
 
     .ipsun {
@@ -501,6 +490,10 @@ span {
 
     }
 
+    .button li{
+        margin: 26px 0;
+    }
+
     .dolor {
         font-size: 15px;
 
@@ -508,30 +501,18 @@ span {
        
         justify-content: center;
         padding: 10px;
-
-
-
-
-
     }
 
     .buy {
         padding: 13px 47px;
         font-size: 9px;
    
-
-
-
     }
 
     .read {
         padding: 13px 47px;
         /* margin: 20px; */
         font-size: 9px;
-        
-
-
-
     }
     .data{
         font-size: 16px;
@@ -1300,7 +1281,7 @@ margin: 0%;
     }
     .submit{
         padding:12px 3px;
-        font-size: 15px;
+        font-size: 13px;
     }
     
     .border1{
@@ -1314,7 +1295,7 @@ margin: 0%;
         width:80%;
     }
     .selectticket{
-        width:90%;
+        width:94%;
 
     }
 
@@ -1702,13 +1683,6 @@ margin: 0%;
     font-weight: 400;
     font-size: 18px;
     font-family: "Roboto", sans-serif;
-
-
-}
-
-.sponsors .row {
-    /* display: flex;
-    justify-content: center; */
 }
 
 .ps .head {
@@ -2284,6 +2258,10 @@ margin: 0%;
 .container{
     margin: 0%;
     padding: 0%;
+}
+.footicon .links:not(:last-child) {
+    margin-right: 5px;
+
 }
 }
 
