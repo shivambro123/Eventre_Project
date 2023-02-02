@@ -15,7 +15,6 @@ nav {
     border-right: 2px solid #e5e5e5;
     width: 100%;
     position: fixed;
-
     z-index: 3;
     background-color: white;
 }
@@ -261,8 +260,6 @@ font-size: 16px;
 margin-bottom: 20px;
 color: #848484;
 font-family: "Montserrat", sans-serif;
-
-
 
 }
 .touch{
